@@ -14,6 +14,7 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactViewHolder> {
     private ArrayList<String> list;
 
     public ContactAdapter(ArrayList<String> contacts) {
+        list= contacts;
     }
 
     @NonNull
